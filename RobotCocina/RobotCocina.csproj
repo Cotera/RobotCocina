@@ -40,7 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="RobotCocina.cs" />
+    <Compile Include="Alimento.cs" />
+    <Compile Include="BasculaService.cs" />
+    <Compile Include="CocinaService.cs" />
+    <Compile Include="CocinarUtils.cs" />
+    <Compile Include="IBascula.cs" />
+    <Compile Include="ICocina.cs" />
+    <Compile Include="Plato.cs" />
+    <Compile Include="TurboMix.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
