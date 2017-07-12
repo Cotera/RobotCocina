@@ -53,7 +53,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="CocinaServiceTest.cs" />
-    <Compile Include="TurboMixTest.cs" />
+    <Compile Include="TurboMixServiceIntegracionTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

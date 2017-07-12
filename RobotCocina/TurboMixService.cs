@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RobotCocina
 {
-    public class TurboMix
+    public class TurboMixService
     {
 		// Se coloca así para poder colocar cualquier implementación de IBascula e ICocina desde fuera.
 		// Se puede hacer por Getters/setters o por Constructor. En Java es típico el GET/SET y en .Net
@@ -14,7 +14,7 @@ namespace RobotCocina
 		public IBascula Bascula { get; set; }
 		public ICocina Cocina { get; set; }
 
-		public TurboMix(IBascula _Bascula, ICocina _Cocina)
+		public TurboMixService(IBascula _Bascula, ICocina _Cocina)
 		{
 			this.Bascula = _Bascula;
 			this.Cocina = _Cocina;

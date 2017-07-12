@@ -4,12 +4,12 @@ using RobotCocina;
 namespace RobotCocinaTest
 {
 	[TestClass]
-	public class TurboMixTest
+	public class TurboMixServiceIntegracionTest
 	{
 		[TestMethod]
 		public void PesarYCocinar()
 		{
-			TurboMix sut = new TurboMix(null, null);
+			TurboMixService sut = new TurboMixService(null, null);
 			Alimento alimento1 = new Alimento();
 			alimento1.Peso = 1.5F;
 

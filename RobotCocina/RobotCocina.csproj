@@ -47,7 +47,7 @@
     <Compile Include="IBascula.cs" />
     <Compile Include="ICocina.cs" />
     <Compile Include="Plato.cs" />
-    <Compile Include="TurboMix.cs" />
+    <Compile Include="TurboMixService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
